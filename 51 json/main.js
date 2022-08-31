@@ -9,6 +9,8 @@ const persone = {
   }
 };
 
+
+//deep cloning
 console.log(JSON.parse(JSON.stringify(persone)));
 console.log(JSON.stringify(persone));
 const clone = JSON.parse(JSON.stringify(persone));
