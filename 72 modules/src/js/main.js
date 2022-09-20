@@ -4,7 +4,7 @@ let two = 2;
 
 export {two};
 
-// export function sayHi() {
+//1,2,3 export function sayHi() {
 //     console.log('hello');
 // }
 export default function sayHi() {

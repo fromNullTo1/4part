@@ -1,13 +1,12 @@
-// import {one, two} from './main';
-// import {one as first} from './main';
+//1 import {one, two} from './main';
+//1 console.log(`${one} and ${two}`);
+
+//2 import {one as first} from './main';
+//2 console.log(first);
+
+//3 import * as data from './main';
+//3 console.log(`${data.one} and ${data.two}`);
+//3 data.sayHi();
+
 import sayHi from './main';
-
-// import * as data from './main';
-
-// console.log(`${one} and ${two}`);
-// console.log(first);
-
-
-// console.log(`${data.one} and ${data.two}`);
-// data.sayHi();
 sayHi();
